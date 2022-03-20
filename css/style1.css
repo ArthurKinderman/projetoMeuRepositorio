@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-
 :root {
     --cor0:#161616;
     --cor1:#B2A89F;
     --cor2:#7A6858;
 
     --font0: 'Roboto', sans-serif;
+}
+
+span a{
+    padding-left: 20px;
+    color: var(--cor1);
+
 }
 
 body{
@@ -113,6 +118,6 @@ a{
 
 .rodape footer{
     color: var(--cor2);
-    margin-left: 33rem;
+    margin-left: 100rem;
     font-size: 13px;
 }
